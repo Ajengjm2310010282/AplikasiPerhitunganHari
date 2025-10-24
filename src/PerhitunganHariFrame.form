@@ -42,7 +42,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="bKeluar" min="-2" pref="82" max="-2" attributes="0"/>
+                      <Component id="btnKeluar" min="-2" pref="82" max="-2" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="jPanel3" max="32767" attributes="0"/>
@@ -79,7 +79,7 @@
                       <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="bKeluar" min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="btnKeluar" min="-2" pref="34" max="-2" attributes="0"/>
                   <EmptySpace pref="8" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -101,10 +101,10 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="312" max="-2" attributes="0"/>
                       <Component id="jLabelJudul" min="-2" pref="219" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -145,7 +145,7 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="bHitungHari" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnHitungHari" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="btnResetHari" min="-2" pref="86" max="-2" attributes="0"/>
                           </Group>
@@ -181,7 +181,7 @@
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bHitungHari" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="btnHitungHari" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                           <Component id="btnResetHari" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
@@ -254,7 +254,7 @@
                 <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="PerhitunganHariFrame_jSpinnerTahun"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JButton" name="bHitungHari">
+            <Component class="javax.swing.JButton" name="btnHitungHari">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="JetBrains Mono NL ExtraBold" size="12" style="1"/>
@@ -265,7 +265,7 @@
                 <Property name="text" type="java.lang.String" value="Hitung Hari"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bHitungHariActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHitungHariActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="btnResetHari">
@@ -319,7 +319,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblselisihhari" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -328,14 +328,14 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblselisihhari" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel9">
+                <Component class="javax.swing.JLabel" name="lblselisihhari">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -659,9 +659,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Component id="bHitungSelisih" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnHitungSelisih" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="42" max="32767" attributes="0"/>
-                      <Component id="bResetSelisih" min="-2" pref="88" max="-2" attributes="0"/>
+                      <Component id="btnResetSelisih" min="-2" pref="88" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -671,8 +671,8 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bResetSelisih" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                          <Component id="bHitungSelisih" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnResetSelisih" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnHitungSelisih" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -680,7 +680,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="bHitungSelisih">
+            <Component class="javax.swing.JButton" name="btnHitungSelisih">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI Black" size="12" style="0"/>
@@ -692,10 +692,10 @@
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bHitungSelisihActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHitungSelisihActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="bResetSelisih">
+            <Component class="javax.swing.JButton" name="btnResetSelisih">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI Black" size="12" style="0"/>
@@ -706,7 +706,7 @@
                 <Property name="text" type="java.lang.String" value="Reset"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bResetSelisihActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetSelisihActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -908,7 +908,7 @@
             </Container>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JButton" name="bKeluar">
+        <Component class="javax.swing.JButton" name="btnKeluar">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="c7" green="bc" red="68" type="rgb"/>
@@ -922,7 +922,7 @@
             <Property name="text" type="java.lang.String" value="Keluar"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bKeluarActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKeluarActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
